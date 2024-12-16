@@ -1,0 +1,38 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.background {
+  background-image: url('assets/bg.png'); /* Replace with your image file name */
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.logo {
+  width: 150px; /* Adjust size as needed */
+  height: auto;
+  margin-bottom: 20px; /* Adds space between the logo and the text */
+}
+
+h1 {
+  margin: 0;
+  font-size: 3em;
+}
+
+p {
+  font-size: 1.2em;
+}
